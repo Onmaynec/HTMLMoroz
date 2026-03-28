@@ -1,3 +1,4 @@
+console.log("🚀 Server starting...");
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
@@ -85,7 +86,8 @@ app.use((req, res, next) => {
 });
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/gta-rp-family')
+console.log("Connecting to Mongo...");
+mongoose.connect('mongodb+srv://romanmamlleev5_db_user:AM3inRxny29leWA8@cluster0.6po3bxm.mongodb.net/?appName=Cluster0')
   .then(() => {
     logger.info('Connected to MongoDB');
   })

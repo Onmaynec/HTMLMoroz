@@ -1,3 +1,4 @@
+console.log("USER ROUTES LOADING");
 import express from 'express';
 import { userController } from '../controllers/index.js';
 import { authenticate, requireAdmin } from '../middleware/auth.js';
