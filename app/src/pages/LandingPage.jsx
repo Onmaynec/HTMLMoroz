@@ -18,7 +18,7 @@ const LandingPage = () => {
     {
       icon: Target,
       title: 'Сильные контракты',
-      description: 'Регулярные высокооплачиваемые контракты с гарантированным доходом для всех участников'
+      description: 'Регулярные высокооплачиваемые контракты с гарантированным доходом для участников'
     },
     {
       icon: Users,
@@ -38,10 +38,10 @@ const LandingPage = () => {
   ];
 
   const stats = [
-    { value: '50+', label: 'Активных участников' },
-    { value: '100+', label: 'Выполненных контрактов' },
+    { value: '30+', label: 'Активных участников' },
+    { value: '1000+', label: 'Выполненых контрактов' },
     { value: '24/7', label: 'Поддержка онлайн' },
-    { value: 'Top 10', label: 'Рейтинг сервера' }
+    { value: '50+', label: 'Положительных отзывов' }
   ];
 
   return (
@@ -79,7 +79,7 @@ const LandingPage = () => {
           {/* Title */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in delay-100">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ice-400 via-cyan-400 to-ice-500 text-glow-ice">
-              ICE FAMILY
+              Moroz FAMQ
             </span>
           </h1>
 
@@ -139,7 +139,7 @@ const LandingPage = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Почему <span className="text-ice-400">ICE FAMILY</span>?
+              Почему <span className="text-ice-400">Moroz FAMQ</span>?
             </h2>
             <p className="text-lg text-frost-400 max-w-2xl mx-auto">
               Мы создали организацию, в которой каждый участник получает максимум возможностей для развития
@@ -187,7 +187,7 @@ const LandingPage = () => {
 
               <ul className="space-y-4">
                 {[
-                  'Возраст от 16 лет',
+                  'Возраст от 14 лет',
                   'Опыт игры в GTA RP от 100 часов',
                   'Наличие микрофона и Discord',
                   'Адекватное поведение и отсутствие токсичности',
@@ -238,11 +238,11 @@ const LandingPage = () => {
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold text-white">
-                <span className="text-ice-400">ICE</span> FAMILY
+                <span className="text-ice-400">Moroz</span> FAMQ
               </span>
             </div>
             <p className="text-frost-500 text-sm">
-              © 2024 ICE FAMILY. GTA 5 RP Organization.
+              © 2024 Moroz FAMQ. GTA 5 RP Organization.
             </p>
           </div>
         </div>
