@@ -383,19 +383,14 @@ export const getStats = async (req, res) => {
     });
   }
 };
-export const getMe = async (req, res) => {
-  try {
-    const user = await User.findById(req.userId).select('-password');
 
-    res.json({
-      success: true,
-      data: { user }
-    });
-  } catch (error) {
-    logger.error('GetMe error:', error);
-    res.status(500).json({
-      success: false,
-      message: 'Ошибка при получении профиля'
-    });
-  }
+export default {
+  getAllUsers,
+  getUserById,
+  updateProfile,
+  uploadAvatar,
+  changeRole,
+  toggleBan,
+  getOnlineUsers,
+  getStats
 };
